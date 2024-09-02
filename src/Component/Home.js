@@ -17,6 +17,9 @@ function Home() {
   // State to manage the selected category
   const isSmallScreen = useMediaQuery('(max-width:700px)');
   const [selectedCategory, setSelectedCategory] = useState('Technology');
+  
+  // const [selectedCategory1, setSelectedCategory1] = useState('Technology');
+
 
   // Function to handle category selection
   const handleCategorySelect = (category) => {
